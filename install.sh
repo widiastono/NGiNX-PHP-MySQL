@@ -22,7 +22,7 @@ sudo service php7.3-fpm restart
 
 ### NGiNX
 sudo apt install -y nginx 
-sudo cp /etc/nginx/site-available/default.conf /etc/nginx/site-available/default.conf.orig
-sudo cp default.conf /etc/nginx/site-available/default.conf
+sudo cp /etc/nginx/sites-available/default.conf /etc/nginx/sites-available/default.conf.orig
+sudo cp default.conf /etc/nginx/sites-available/default.conf
 
 sudo service nginx restart
